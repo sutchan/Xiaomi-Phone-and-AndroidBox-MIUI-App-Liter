@@ -7,9 +7,9 @@ adb devices		//查看可连接设备
 adb shell pm list package	//查看已安装app
 
 
-//=================================
+//====================
 // 可精简app清单 Begin
-//=================================
+//====================
 
 //停用广告模块
 
@@ -78,6 +78,7 @@ adb shell pm uninstall --user 0 com.miui.wmsvc
 adb shell pm uninstall --user 0 com.miui.userguide
 
 //时尚画报
+
 adb shell pm uninstall --user 0 com.mfashiongallery.emag
 
 //多看阅读
@@ -98,9 +99,9 @@ adb shell pm uninstall --user 0 com.xiaomi.gamecenter
 
 adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service
 
-//=================================
+//==================
 // 可精简app清单 End
-//=================================
+//==================
 
 
 //以下为adb常用命令，仅供备用，不用执行。
