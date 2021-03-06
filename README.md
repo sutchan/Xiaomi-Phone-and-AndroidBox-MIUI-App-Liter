@@ -7,7 +7,6 @@ adb devices		//查看可连接设备
 adb shell pm list package	//查看已安装app
 
 
-
 //=================================
 // 可精简app清单 Begin
 //=================================
@@ -27,6 +26,7 @@ adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.xiaomi
 //百度输入法
 
 adb shell pm uninstall --user 0 com.baidu.input_mi
+
 adb shell pm uninstall --user 0 com.baidu.duersdk.opensdk
 
 //安卓系统自带app
@@ -104,6 +104,7 @@ adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service
 
 
 //以下为adb常用命令，仅供备用，不用执行。
+
 adb shell pm list packages -[option] 命令查看已经安装的应用，列出包名，后面加不同的后缀输出不同信息。
 
 adb shell pm list packages     ####查看当前连接设备或者虚拟机的所有包
